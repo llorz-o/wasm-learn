@@ -35,7 +35,11 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f108beb1-65c4-43a1-bcc4-6197394d515c" name="默认更改列表" comment="finished the game" />
+    <list default="true" id="f108beb1-65c4-43a1-bcc4-6197394d515c" name="默认更改列表" comment="finished the game">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/wasm-learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/wasm-learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,19 +80,21 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
     <property name="ts.external.directory.path" value="D:\DEV_SOFT\IntelliJ IDEA 2020.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Cargo.Test test_trick">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,6 +132,7 @@
   </component>
   <component name="RustProjectSettings">
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -135,7 +142,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611986748813</updated>
-      <workItem from="1611986751034" duration="51251000" />
+      <workItem from="1611986751034" duration="51609000" />
+      <workItem from="1612357968177" duration="112000" />
     </task>
     <task id="LOCAL-00001" summary="finished the game">
       <created>1612357426583</created>
@@ -160,8 +168,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/www" />
+    </ignored-roots>
     <MESSAGE value="finished the game" />
     <option name="LAST_COMMIT_MESSAGE" value="finished the game" />
   </component>
@@ -174,6 +186,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="794" y="340" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1858.1080@62.0.1858.1080" timestamp="1612001820765" />
+    <state x="771" y="294" key="FileChooserDialogImpl" timestamp="1612358037604">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="771" y="294" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1612358037604" />
     <state width="907" height="287" key="GridCell.Tab.0.bottom" timestamp="1612003237152">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -190,14 +206,14 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="907" height="287" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1612003237152" />
-    <state x="571" y="274" key="IDE.errors.dialog" timestamp="1612013105633">
+    <state x="571" y="274" key="IDE.errors.dialog" timestamp="1612357802797">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="571" y="274" key="IDE.errors.dialog/62.0.1858.1080@62.0.1858.1080" timestamp="1612013105633" />
-    <state x="325" y="308" width="1502" height="712" key="SettingsEditor" timestamp="1612339264554">
+    <state x="571" y="274" key="IDE.errors.dialog/62.0.1858.1080@62.0.1858.1080" timestamp="1612357802797" />
+    <state x="325" y="308" width="1502" height="712" key="SettingsEditor" timestamp="1612358080690">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="325" y="308" width="1502" height="712" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1612339264554" />
+    <state x="325" y="308" width="1502" height="712" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1612358080690" />
     <state x="583" y="272" key="Vcs.Push.Dialog.v2" timestamp="1612357472703">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
